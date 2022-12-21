@@ -29,7 +29,7 @@ public class StringTest {
     @Test
     void charAt() {
         char c = "abc".charAt(0);
-        assertThat(c).isEqualTo('c');
+        assertThat(c).isEqualTo('a');
     }
 
     @Test
